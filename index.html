@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AGCA Chile, Asociación Gremial de Chefs Autónomos de Chile y Asociados Internacionales. Gastronomía, cultura, inclusión y tradición ancestral.">
+<title>AGCA Chile | Asociación Gastronómica</title>
+
+<style>
+:root {
+  --azul: #101d32;
+  --dorado: #c9a45c;
+  --blanco: #ffffff;
+  --gris: #f4f5f7;
+  --texto: #303947;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--texto);
+  line-height: 1.7;
+}
+header {
+  background: var(--azul);
+  color: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.logo {
+  color: var(--dorado);
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+nav { display: flex; flex-wrap: wrap; gap: 17px; }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+nav a:hover { color: var(--dorado); }
+.hero {
+  background: linear-gradient(120deg, #101d32, #253b56);
+  color: white;
+  padding: 100px 8%;
+  text-align: center;
+}
+.hero h1 {
+  font-size: clamp(36px, 6vw, 62px);
+  margin: 10px 0;
+  color: var(--dorado);
+}
+.hero p {
+  max-width: 760px;
+  margin: 15px auto 30px;
+  font-size: 18px;
+}
+.etiqueta {
+  color: var(--dorado);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+.boton {
+  display: inline-block;
+  background: var(--dorado);
+  color: #101d32;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+section { padding: 75px 8%; }
+section h2 {
+  color: var(--azul);
+  text-align: center;
+  font-size: 32px;
+  margin-top: 0;
+}
+.subtitulo {
+  text-align: center;
+  color: #777;
+  max-width: 750px;
+  margin: 0 auto 35px;
+}
+.contenido {
+  max-width: 1050px;
+  margin: auto;
+}
+.centrado { text-align: center; }
+.gris { background: var(--gris); }
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  margin-top: 35px;
+}
+.tarjeta {
+  background: white;
+  padding: 28px;
+  border-radius: 7px;
+  border-top: 3px solid var(--dorado);
+  box-shadow: 0 5px 18px rgba(0,0,0,.06);
+}
+.tarjeta h3 { color: var(--azul); }
+.evento {
+  background: var(--azul);
+  color: white;
+  text-align: center;
+  padding: 65px 8%;
+}
+.evento h2 { color: var(--dorado); }
+.evento p { max-width: 780px; margin: 15px auto; }
+.dorado { color: var(--dorado); }
+.contacto {
+  background: var(--gris);
+  text-align: center;
+}
+.contacto a { color: #8b692d; font-weight: bold; }
+footer {
+  background: #0b1423;
+  color: white;
+  text-align: center;
+  padding: 28px 15px;
+  font-size: 13px;
+}
+footer span { color: var(--dorado); }
+@media(max-width:600px) {
+  header { justify-content: center; text-align: center; }
+  nav { justify-content: center; gap: 12px; }
+  .hero { padding: 70px 6%; }
+  section { padding: 55px 6%; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">AGCA CHILE</div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#mision">Misión</a>
+    <a href="#fuegos">Congresos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<div class="hero" id="inicio">
+  <div class="etiqueta">Gastronomía · Cultura · Inclusión</div>
+  <h1>AGCA CHILE</h1>
+  <p>
+    Asociación Gremial de Chefs Autónomos de Chile
+    y Asociados Internacionales.
+  </p>
+  <p>
+    Uniendo culturas, saberes y generaciones a través
+    de la gastronomía.
+  </p>
+  <a class="boton" href="#nosotros">Conócenos</a>
+</div>
+
+<section id="nosotros">
+  <div class="contenido">
+    <h2>¿Quiénes somos?</h2>
+    <p class="subtitulo">
+      Una organización que trabaja por el fortalecimiento
+      de la gastronomía, la identidad cultural y el desarrollo
+      de las comunidades.
+    </p>
+    <p>
+      La Asociación Gremial de Chefs Autónomos de Chile y
+      Asociados Internacionales (AGCA Chile) es una
+      organización legalmente constituida y sin fines de lucro,
+      conformada por profesionales del ámbito gastronómico,
+      cultural, educativo y social.
+    </p>
+    <p>
+      Promovemos el encuentro entre la cocina ancestral y
+      las expresiones gastronómicas del mundo, impulsando
+      la formación, la inclusión y el reconocimiento del
+      patrimonio culinario.
+    </p>
+    <p><strong>RUT:</strong> 76.690.893-4</p>
+  </div>
+</section>
+
+<section class="gris" id="mision">
+  <div class="contenido">
+    <h2>Nuestro propósito</h2>
+    <p class="subtitulo">
+      La gastronomía como herramienta de identidad,
+      educación, integración y transformación social.
+    </p>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <h3>Identidad ancestral</h3>
+        <p>Rescatamos y difundimos los saberes, productos
+        y tradiciones culinarias de nuestros pueblos.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Formación gastronómica</h3>
+        <p>Promovemos instancias de aprendizaje para jóvenes,
+        estudiantes y profesionales.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Inclusión</h3>
+        <p>Impulsamos espacios gastronómicos accesibles
+        y oportunidades para todas las personas.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Compromiso social</h3>
+        <p>Apoyamos iniciativas comunitarias y acciones
+        solidarias a través de la gastronomía.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="evento" id="fuegos">
+  <div class="etiqueta">Proyecto internacional</div>
+  <h2>Fuegos del Continente</h2>
+  <p>
+    Congreso Gastronómico Inclusivo, Internacional
+    y Ancestral de Chile.
+  </p>
+  <p>
+    Un encuentro que reúne culturas, cocineros,
+    conocimientos y tradiciones, generando vínculos
+    entre países a través de la gastronomía.
+  </p>
+  <p class="dorado">
+    Chile · México · Perú · América Latina
+  </p>
+  <p>
+    Sus distintas ediciones han permitido compartir
+    experiencias, fortalecer alianzas y dar visibilidad
+    a la riqueza gastronómica de nuestros territorios.
+  </p>
+</div>
+
+<section>
+  <div class="contenido">
+    <h2>Presencia internacional</h2>
+    <p class="subtitulo">
+      Construyendo puentes gastronómicos y culturales
+      más allá de nuestras fronteras.
+    </p>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <h3>🇲🇽 México</h3>
+        <p>Encuentros internacionales y reconocimiento
+        de la identidad gastronómica ancestral.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>🇵🇪 Perú</h3>
+        <p>Intercambio cultural y gastronómico
+        en el marco de Fuegos del Continente.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>🇨🇱 Chile</h3>
+        <p>Promoción del patrimonio culinario,
+        la formación y la inclusión.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gris centrado">
+  <div class="contenido">
+    <h2>Construyamos juntos</h2>
+    <p>
+      Invitamos a profesionales, cocineros,
+      emprendedores, instituciones y personas
+      comprometidas con la gastronomía a conocer
+      y participar de nuestras iniciativas.
+    </p>
+    <a class="boton" href="mailto:agca.chile17@gmail.com">
+      Escríbenos
+    </a>
+  </div>
+</section>
+
+<section class="contacto" id="contacto">
+  <div class="contenido">
+    <h2>Contacto institucional</h2>
+    <p>Asociación Gremial de Chefs Autónomos de Chile
+    y Asociados Internacionales.</p>
+    <p>
+      Correo:
+      <a href="mailto:agca.chile17@gmail.com">
+        agca.chile17@gmail.com
+      </a>
+    </p>
+    <p>Chile · Proyección internacional</p>
+  </div>
+</section>
+
+<footer>
+  <p><span>AGCA CHILE</span></p>
+  <p>Gastronomía, identidad, inclusión y cultura.</p>
+  <p>© 2026 AGCA Chile · Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
